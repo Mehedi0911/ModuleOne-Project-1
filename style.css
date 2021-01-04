@@ -3,28 +3,135 @@
     --pure:#F2F2F2;
     --secondary: #FF7254;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
 body{
     font-family: 'poppins', sans-serif;
 }
 
-.MyName{
+span{
     color: var(--primary);
 }
 
 section{
-    display: flex;
-   
+    height: 500px;
+    padding-bottom: 300px;
+    
 }
 
-section .half-width{
+.top-banner{
+    background-image: url(./Images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.half-width{
+    float: left;
     width: 40%;
     margin-left: 5%;
+    
     padding-left: 2%;
-    align-items: center;
+    
 }
 
 section .half-width img{
     width: 100%;
 }
+
+section .half-width h1{
+    font-size: 3rem;
+    margin-top: 6rem;
+}
+section .half-width h3{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+section .half-width p{
+    margin-bottom: 3rem;
+    line-height: 1.75;
+    color: slategray;
+}
+
+.learn-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, salmon, orange);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: var(--pure);
+    font-weight: 700;
+}
+
+.dream-big{
+    background-image: url(./Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience .exp-header{
+    font-size: 3rem;
+    margin-left: 1.5rem;
+
+    margin-bottom: 3rem;
+    color: var(--primary);
+
+}
+
+.experience h4{
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+}
+
+.experience h2{
+    margin-bottom: 2rem;
+}
+
+.experience{
+    background-image: url(./Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single-experience{
+    box-shadow: 6px 6px 50px gray;
+    border-radius: 10px;
+    height: 80%;
+    padding-top: 2rem;
+    background-color: var(--pure);
+}
+
+#special{
+    border-left: 7px solid;
+    border-image: linear-gradient(75deg, salmon, orange);
+    border-image-slice: 1;
+}
+#special-2{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(75deg, rgb(0, 174, 255), cyan);
+    border-image-slice: 1;
+
+}
+footer{
+    background-color: #262626;
+    height: 50px;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+footer p{
+    color: var(--pure);
+    text-align: center;
+    opacity: 70%;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
